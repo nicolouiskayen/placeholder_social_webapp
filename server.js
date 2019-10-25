@@ -14,7 +14,7 @@ const app = express()
 
 const certOptions = {
   key: fs.readFileSync(path.resolve('certs/server.key')),
-  cert: fs.readFileSync(path.resolve('certs/server.crt'))
+  cert: fs.readFileSync(path.resolve('certs/server.cert'))
 }
 
 const server = https.createServer(certOptions, app)

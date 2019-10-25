@@ -3,6 +3,7 @@ import io from 'socket.io-client'
 import OAuth from './OAuth'
 import { API_URL } from './config'
 import './App.css'
+require('dotenv').config()
 const socket = io(API_URL)
 const providers = ['twitter', 'google', 'facebook', 'github']
 

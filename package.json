@@ -1,0 +1,39 @@
+{
+  "name": "placeholder_social_webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolouiskayen/placeholder_social_webapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolouiskayen/placeholder_social_webapp/issues"
+  },
+  "homepage": "https://github.com/nicolouiskayen/placeholder_social_webapp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "https": "^1.0.0",
+    "node": "^12.12.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "path": "^0.12.7",
+    "react": "^16.11.0",
+    "session.io": "^1.0.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
